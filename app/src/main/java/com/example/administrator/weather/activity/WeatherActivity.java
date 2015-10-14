@@ -85,10 +85,8 @@ public class WeatherActivity extends Activity implements View.OnClickListener {
                 String weatherCode = preferences.getString("weather_code", "");
                 if (!TextUtils.isEmpty(weatherCode)) {
                     queryWeatherInfo(weatherCode);
-
                 }
                 break;
-
             default:
                 break;
         }
@@ -162,8 +160,3 @@ public class WeatherActivity extends Activity implements View.OnClickListener {
         startService(intent);
     }
 }
-
-
-
-
-

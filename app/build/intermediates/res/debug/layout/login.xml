@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#235169"
+    android:gravity="center_horizontal"
+    >
+
+
+    <!-- 账号 -->
+      <EditText
+                android:id="@+id/username_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="150dp"
+                android:hint="用户名"
+                android:textSize="25dp"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:background="@drawable/shape"
+                android:layout_marginLeft  = "20dp"
+                android:layout_marginRight = "20dp"
+                />
+    <!-- 密码 text -->
+
+            <EditText
+                android:id="@+id/password_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/username_edit"
+                android:hint="密码"
+                android:textSize="25dp"
+                android:gravity="center_horizontal"
+                android:password="true"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                android:background="@drawable/shape"
+                android:layout_marginLeft  = "20dp"
+                android:layout_marginRight = "20dp"/>
+    <!-- 登录button -->
+            <Button
+                android:id="@+id/login_button"
+                android:hint="登陆"
+                android:textSize="25dp"
+                android:background="@drawable/shape2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/password_edit"
+
+                android:layout_marginLeft  = "20dp"
+                android:layout_marginRight = "20dp"/>
+    <!-- 忘记密码button -->
+                <Button
+                android:id="@+id/forget_button"
+                android:hint="忘记密码"
+                android:textSize="23dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/password_edit"
+                android:layout_alignLeft="@+id/password_edit"
+                android:layout_alignRight="@id/password_edit"
+                android:background="#235169"
+                android:layout_marginLeft  = "20dp"
+                android:layout_marginRight = "20dp"
+                    />
+
+</LinearLayout>
+<!-- From: file:/D:/Android/StudioWork1/Weather/app/src/main/res/layout/login.xml -->

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <size android:width="3dp" />
+    <solid android:color="#141514"  />
+</shape>
+<!-- From: file:/D:/Android/StudioWork1/Weather/app/src/main/res/drawable/guangbiao.xml -->

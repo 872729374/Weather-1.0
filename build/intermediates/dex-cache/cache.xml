@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\Android studio SDK\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-650bf2450a704120189fa61492f28e96fc65cfaf.jar" />
+    </item>
+    <item
+        jar="D:\Android\StudioWork1\Weather\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\classes-6fae0c259cdc8789b271a72062d4dde181d84037.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-fc861cbde294a7e4a9efd57936d766cb077b60e2.jar" />
+    </item>
+    <item
+        jar="D:\Android\StudioWork1\Weather\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-0117216dad51875d75756cc69659cebdd05ac64e.jar" />
+    </item>
+    <item
+        jar="D:\Android\StudioWork1\Weather\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\classes-7f7cd892995c30f175f8d25514c37af8361d2055.jar" />
+    </item>
+
+</items>

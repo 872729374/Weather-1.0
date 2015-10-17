@@ -1,0 +1,77 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:2:1-29:12
+	xmlns:android
+		ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:4:3-64
+	android:name
+		ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:4:20-62
+application
+ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:5:5-27:19
+MERGED from [com.android.support:appcompat-v7:22.1.1] D:\Android\StudioWork1\Weather\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.1.1] D:\Android\StudioWork1\Weather\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:8:9-41
+	android:allowBackup
+		ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:7:9-38
+	android:theme
+		ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:9:9-40
+activity#com.example.administrator.weather.activity.Login
+ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:12:19-82
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:13:17-16:33
+action#android.intent.action.MAIN
+ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:14:21-72
+	android:name
+		ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:14:29-70
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:15:21-80
+	android:name
+		ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:15:31-78
+activity#com.example.administrator.weather.activity.ChooseAreaActivity
+ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:19:9-21:20
+	android:label
+		ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:19:19-95
+activity#com.example.administrator.weather.activity.WeatherActivity
+ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:22:9-104
+	android:name
+		ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:22:19-92
+service#com.example.administrator.weather.receiver.AutoUpdateService
+ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:24:8-70
+	android:name
+		ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:24:17-59
+receiver#com.example.administrator.weather.receiver.AutoUpdateReceive
+ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:25:9-73
+	android:name
+		ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:25:19-61
+service#com.example.administrator.weather.service.Myservice
+ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:26:9-62
+	android:name
+		ADDED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml:26:18-51
+uses-sdk
+INJECTED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:22.1.1] D:\Android\StudioWork1\Weather\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.1.1] D:\Android\StudioWork1\Weather\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\StudioWork1\Weather\app\src\main\AndroidManifest.xml

@@ -13,7 +13,6 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.view.View;
-import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
@@ -26,6 +25,8 @@ import com.example.administrator.weather.db.City;
 import com.example.administrator.weather.db.CoolWeatherDB;
 import com.example.administrator.weather.db.County;
 import com.example.administrator.weather.db.Province;
+
+import com.example.administrator.weather.service.Myservice;
 import com.example.administrator.weather.util.HttpCallbackListener;
 import com.example.administrator.weather.util.HttpUtil;
 import com.example.administrator.weather.util.Utility;
@@ -65,7 +66,8 @@ public class ChooseAreaActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         isFromWeatherActivity = getIntent().getBooleanExtra("from_weather_activity",false);
-
+        Intent serviceIntent = new Intent(this, Myservice.class);
+        startService(serviceIntent);
 
         SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
         if (preferences.getBoolean("city_selected",false)&& !isFromWeatherActivity){
@@ -76,9 +78,8 @@ public class ChooseAreaActivity extends Activity {
         }
 
 
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_main);
 
+        setContentView(R.layout.activity_main);
         listView = (ListView) findViewById(R.id.listView);
         titleText = (TextView) findViewById(R.id.title_text);
 
@@ -102,16 +103,11 @@ public class ChooseAreaActivity extends Activity {
                     intent.putExtra("county_code", countyCode);
                     startActivity(intent);
                     finish();
-
                 }
-
         }
     });
         queryProvinces();
     }
-
-
-
     private void queryProvinces() {
         provinceList = coolWeatherDB.loadProvinces();
         if (provinceList.size() > 0) {
@@ -127,8 +123,6 @@ public class ChooseAreaActivity extends Activity {
             queryFromServer(null, "province");
         }
     }
-
-
     private void queryCities() {
         cityList = coolWeatherDB.loadCities(selectedProvince.getId());
         if (cityList.size() > 0) {
@@ -161,8 +155,6 @@ public class ChooseAreaActivity extends Activity {
             queryFromServer(selectedCity.getCityCode(), "county");
         }
     }
-
-
     private void queryFromServer(final String code, final String type) {
         String address;
         if (!TextUtils.isEmpty(code)) {
@@ -174,8 +166,6 @@ public class ChooseAreaActivity extends Activity {
         }
         showProgressDialog();
         HttpUtil.sendHttpRequest(address, new HttpCallbackListener() {
-
-
             @Override
             public void onFinish(String response) {
                 boolean result = false;
@@ -216,7 +206,6 @@ public class ChooseAreaActivity extends Activity {
             }
         });
     }
-
             private void showProgressDialog() {
                 if (progressDialog == null) {
                     progressDialog = new ProgressDialog(this);
@@ -246,13 +235,4 @@ public class ChooseAreaActivity extends Activity {
                     finish();
                 }
             }
-
-
     }
-
-
-
-
-
-
-

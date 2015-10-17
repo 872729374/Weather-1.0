@@ -1,11 +1,4 @@
 package com.example.administrator.weather.util;
-
-
-
-
-
-
-
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.Preference;
@@ -60,7 +53,6 @@ public class Utility {
                     city.setCityName(array[1]);
                     city.setProvinceId(provinceId);
                     coolWeatherDB.saveCity(city);
-
                 }
                 return true;
             }
@@ -86,7 +78,6 @@ public class Utility {
         }
         return false;
     }
-
     //解析服务器返回数据 并且保存到本地
 
     public static void handleWeatherResponse(Context context, String response){
@@ -121,7 +112,5 @@ public class Utility {
         editor.putString("publish_time",publishTime);
         editor.putString("current_data",sdf.format(new Date()));
         editor.commit();
-
-
     }
 }

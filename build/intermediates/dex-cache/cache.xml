@@ -2,6 +2,27 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-fc861cbde294a7e4a9efd57936d766cb077b60e2.jar" />
+    </item>
+    <item
+        jar="D:\Android\StudioWork1\Weather\app\libs\ShareSDK-Wechat-Core-2.6.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a6e8417962070d895b3567c68f104f628462bc35">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-2.6.4-5ade1637b813446c560986281b7a8435a8a17500.jar" />
+    </item>
+    <item
+        jar="D:\Android\StudioWork1\Weather\app\libs\ShareSDK-Wechat-Moments-2.6.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dc2b46a70ccf00592d33c3afde812993d9db4ac9">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-2.6.4-770a0a9c33cbf187187dd7e7ae05bb92555aacf7.jar" />
+    </item>
+    <item
         jar="D:\Android\Android studio SDK\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -9,18 +30,46 @@
         <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.1-650bf2450a704120189fa61492f28e96fc65cfaf.jar" />
     </item>
     <item
-        jar="D:\Android\StudioWork1\Weather\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jar="D:\Android\StudioWork1\Weather\app\libs\ShareSDK-Bluetooth-2.6.4.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\classes-6fae0c259cdc8789b271a72062d4dde181d84037.jar" />
+        sha1="dee47c7de566cf30036cfeafe6f8557ed74e5988">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\ShareSDK-Bluetooth-2.6.4-e2360b371eb7436450550c6a9b504241a03f5ec8.jar" />
     </item>
     <item
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jar="D:\Android\StudioWork1\Weather\app\libs\ShareSDK-Email-2.6.4.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-fc861cbde294a7e4a9efd57936d766cb077b60e2.jar" />
+        sha1="81a92328963aea17992c71f3f95e60c355c570c3">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\ShareSDK-Email-2.6.4-b98785fc6b7197253b9670df549c72285a0714ea.jar" />
+    </item>
+    <item
+        jar="D:\Android\StudioWork1\Weather\app\libs\ShareSDK-SinaWeibo-2.6.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4536d9f7a5fb826609d5a17b30cabb21ead18d1c">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.6.4-be504a467c27fc75a120cd67644801c295ec0959.jar" />
+    </item>
+    <item
+        jar="D:\Android\StudioWork1\Weather\app\libs\ShareSDK-QQ-2.6.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e8d59be1960d4e1b1f9119cc77966e5f7c9fb7bd">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\ShareSDK-QQ-2.6.4-c0fb2a3b628b32ce3cbeed1ab52f02e27df8aa22.jar" />
+    </item>
+    <item
+        jar="D:\Android\StudioWork1\Weather\app\libs\ShareSDK-TencentWeibo-2.6.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="83cf7f24b0717fbe9272342f0b971ed4af13d106">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\ShareSDK-TencentWeibo-2.6.4-b7db222dd67ca991513cebe9c0bdf4e5713c6224.jar" />
+    </item>
+    <item
+        jar="D:\Android\StudioWork1\Weather\app\libs\ShareSDK-Wechat-2.6.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="100546a136041bcbeb9b90790b6361c932545676">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-2.6.4-35a88dd1e1577a0ffc7bd6b7c228e31b973edc94.jar" />
     </item>
     <item
         jar="D:\Android\StudioWork1\Weather\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\libs\internal_impl-22.1.1.jar"
@@ -30,11 +79,74 @@
         <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.1-0117216dad51875d75756cc69659cebdd05ac64e.jar" />
     </item>
     <item
+        jar="D:\Android\StudioWork1\Weather\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\classes-6fae0c259cdc8789b271a72062d4dde181d84037.jar" />
+    </item>
+    <item
+        jar="D:\Android\StudioWork1\Weather\app\libs\MobTools.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4aae467e0a293d5d5cd0643e51b7b854bcc397c8">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\MobTools-e2c234f5aa2d69e673beb5f59346fa2b66d158ff.jar" />
+    </item>
+    <item
+        jar="D:\Android\StudioWork1\Weather\app\libs\MobCommons.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="86052ea3c2fcfa2f2d25d71ae34ab20b8c2dca9a">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\MobCommons-64ff5e5234786909e942dfce399a5ef8fb951452.jar" />
+    </item>
+    <item
+        jar="D:\Android\StudioWork1\Weather\app\libs\ShareSDK-Wechat-Favorite-2.6.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bd820f646c7b0315feb16ec95ae4686fa50ac74f">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Favorite-2.6.4-92048c97dcd180a14cdad076ca723d2183ab8bbc.jar" />
+    </item>
+    <item
         jar="D:\Android\StudioWork1\Weather\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.1\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
         <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\classes-7f7cd892995c30f175f8d25514c37af8361d2055.jar" />
+    </item>
+    <item
+        jar="D:\Android\StudioWork1\Weather\app\libs\ShareSDK-QZone-2.6.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="606a553246f241278b45e19d5029c915ae49c316">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\ShareSDK-QZone-2.6.4-84d2cd40f8a182e0338dd884bfc41097cea0a07c.jar" />
+    </item>
+    <item
+        jar="D:\Android\StudioWork1\Weather\app\libs\ShareSDK-Renren-2.6.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e82e65e2918d62c35e72cbdd012bb09e4d28c270">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\ShareSDK-Renren-2.6.4-6aedd2bbe62e4cb145b79158e00cd7aa64b618ad.jar" />
+    </item>
+    <item
+        jar="D:\Android\StudioWork1\Weather\app\libs\ShareSDK-ShortMessage-2.6.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="600c29e53c1196bde47dd1ceffbc4ba827d41ee3">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\ShareSDK-ShortMessage-2.6.4-bf27349a240b6a0267bb0e3931dd7b7d9ced96a4.jar" />
+    </item>
+    <item
+        jar="D:\Android\StudioWork1\Weather\app\libs\ShareSDK-Douban-2.6.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2cf2a4bf68f66ddf58de57e500ff7daf0a57aba3">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\ShareSDK-Douban-2.6.4-eddf07476709e2d3ca3e3ad3ce34cd3edd21a9b5.jar" />
+    </item>
+    <item
+        jar="D:\Android\StudioWork1\Weather\app\libs\ShareSDK-Core-2.6.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7bb32fc69b3520f10333fcc5cdd78a4495761a64">
+        <dex dex="D:\Android\StudioWork1\Weather\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.6.4-ad9a6cb70b009dc5b5b96713fc9b0a9eb04f1a29.jar" />
     </item>
 
 </items>
